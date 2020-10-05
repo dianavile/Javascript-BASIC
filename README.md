@@ -31,7 +31,8 @@ Estructura de la funció que faci sumes, restes i multiplicacions. El resultat h
 
 ### TO REMEMBER VARIABLES VAR, LET, CONST
 The main difference between VAR and LET is the scope difference: 
-- *var* can be accessed outside the loop. 
-- *let* can be only available inside the scope it's declared, like in for loop. Let is limited in scope to the block, statement, or expression on which it is used (MDN).
+- *var* can be accessed outside the loop. (GLOBAL SCOPE) 
+- *let* can be only available inside the scope it's declared, like in for loop. (LOCAL SCOPE).
+  Let is limited in scope to the block, statement, or expression on which it is used (MDN).
 - [Difference VAR and LET variables](https://stackoverflow.com/questions/762011/whats-the-difference-between-using-let-and-var#:~:text=The%20main%20difference%20is%20the,outside%20the%20loop%20for%20example.&text=let%20allows%20you%20to%20declare,on%20which%20it%20is%20used)
 - [Led-MDN documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
